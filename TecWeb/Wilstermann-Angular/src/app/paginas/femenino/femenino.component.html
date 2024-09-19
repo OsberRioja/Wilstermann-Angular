@@ -1,0 +1,29 @@
+<h1 class="TITULO" >EQUIPO FEMENINO WILSTERMANN</h1>
+<div class="body">
+  <img [src]="equipo" alt="" width="100%" height="auto">
+    <div class="contenedor">
+        <div class="imagenes">
+            <img [src]="jugadora1" alt="" width="100%" height="auto">
+            <img [src]="jugadora2" alt="" width="100%" height="auto">
+            <img [src]="jugadora3" alt="" width="100%" height="auto">
+        </div>
+        <div class="jugadores">
+            <table border="2">
+                <thead>
+                  <tr>
+                    <th>Nombre</th>
+                    <th>Nacionalidad</th>
+                    <th>#</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr *ngFor="let dato of datosTabla">
+                    <td>{{ dato.Nombre }}</td>
+                    <td>{{ dato.Nacionalidad }}</td>
+                    <td>{{ dato['#'] }}</td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+    </div>
+</div>

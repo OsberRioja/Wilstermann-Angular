@@ -1,0 +1,156 @@
+[
+    {
+      "Equipo": "The Stronguest",
+      "puntos": "27",
+      "PJ": "12",
+      "Ganados": "8",
+      "Empatados": "3",
+      "Perdidos": "1",
+      "DG": "+12"
+    },
+    {
+      "Equipo": "Nacional Potosi",
+      "puntos": "25",
+      "PJ": "12",
+      "Ganados": "8",
+      "Empatados": "1",
+      "Perdidos": "3",
+      "DG": "+8"
+    },
+    {
+      "Equipo": "Bolivar",
+      "puntos": "20",
+      "PJ": "13",
+      "Ganados": "6",
+      "Empatados": "2",
+      "Perdidos": "5",
+      "DG": "+9"
+    },
+    {
+      "Equipo": "Aurora",
+      "puntos": "20",
+      "PJ": "13",
+      "Ganados": "5",
+      "Empatados": "5",
+      "Perdidos": "3",
+      "DG": "+7"
+    },
+    {
+      "Equipo": "Real SC",
+      "puntos": "19",
+      "PJ": "12",
+      "Ganados": "5",
+      "Empatados": "4",
+      "Perdidos": "3",
+      "DG": "+2"
+    },
+    {
+      "Equipo": "Palmaflor",
+      "puntos": "18",
+      "PJ": "12",
+      "Ganados": "6",
+      "Empatados": "0",
+      "Perdidos": "6",
+      "DG": "+1"
+    },
+    {
+      "Equipo": "Always Ready",
+      "puntos": "17",
+      "PJ": "11",
+      "Ganados": "4",
+      "Empatados": "5",
+      "Perdidos": "2",
+      "DG": "+9"
+    },
+    {
+      "Equipo": "Independiente",
+      "puntos": "15",
+      "PJ": "12",
+      "Ganados": "5",
+      "Empatados": "0",
+      "Perdidos": "7",
+      "DG": "-2"
+    },
+    {
+      "Equipo": "Oriente Petrolero",
+      "puntos": "14",
+      "PJ": "12",
+      "Ganados": "3",
+      "Empatados": "5",
+      "Perdidos": "4",
+      "DG": "-1"
+    },
+    {
+      "Equipo": "Real Tomayapo",
+      "puntos": "14",
+      "PJ": "12",
+      "Ganados": "3",
+      "Empatados": "5",
+      "Perdidos": "4",
+      "DG": "-4"
+    },
+    {
+      "Equipo": "Royal Pari",
+      "puntos": "14",
+      "PJ": "12",
+      "Ganados": "4",
+      "Empatados": "2",
+      "Perdidos": "6",
+      "DG": "-6"
+    },
+    {
+      "Equipo": "Guabira",
+      "puntos": "14",
+      "PJ": "12",
+      "Ganados": "4",
+      "Empatados": "2",
+      "Perdidos": "6",
+      "DG": "-6"
+    },
+    {
+      "Equipo": "Universitario Vinto",
+      "puntos": "13",
+      "PJ": "12",
+      "Ganados": "3",
+      "Empatados": "4",
+      "Perdidos": "5",
+      "DG": "+-1"
+    },
+    {
+      "Equipo": "Vaca Diez",
+      "puntos": "13",
+      "PJ": "12",
+      "Ganados": "3",
+      "Empatados": "4",
+      "Perdidos": "5",
+      "DG": "-5"
+    },
+    {
+      "Equipo": "Wilstermann",
+      "puntos": "12",
+      "PJ": "12",
+      "Ganados": "4",
+      "Empatados": "6",
+      "Perdidos": "2",
+      "DG": "+5"
+    },
+    {
+      "Equipo": "Libertad GM",
+      "puntos": "12",
+      "PJ": "12",
+      "Ganados": "3",
+      "Empatados": "3",
+      "Perdidos": "7",
+      "DG": "-16"
+    },
+    {
+      "Equipo": "Blooming",
+      "puntos": "9",
+      "PJ": "12",
+      "Ganados": "2",
+      "Empatados": "3",
+      "Perdidos": "7",
+      "DG": "-12"
+    }
+    
+]

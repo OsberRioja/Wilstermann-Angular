@@ -1,0 +1,30 @@
+.contenido_principal {
+    width: 70%;
+    margin: 0 auto;
+  }
+  
+  .noticias {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  figure {
+    text-align: center;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .contenido_principal {
+      width: 90%;
+    }
+  
+    .noticias {
+      grid-template-columns: 1fr;
+    }
+  }
+  

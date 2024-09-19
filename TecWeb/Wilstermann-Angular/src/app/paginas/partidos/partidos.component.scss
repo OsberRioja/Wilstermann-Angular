@@ -1,0 +1,75 @@
+.body {
+    background-color: rgb(8, 9, 29);    
+}
+
+.tabla {
+    text-align: center;
+    font-size: 23px;
+    margin-top: 50px;
+    border-color: rgb(200, 202, 54);
+}
+
+.cuerpo {
+    background-color: rgb(8, 9, 29);
+    color: rgb(200, 202, 54);
+}
+
+#lugares {
+    color: rgb(8, 9, 29);
+    text-align: center;
+    font-size: 17px;
+    font-family: cursive;
+    background-color: rgb(200, 202, 54);
+}
+
+#wilster {
+    background-color: brown;
+}
+
+.encabezado {
+    background-color: rgb(1, 9, 24);
+    color: rgb(231, 224, 224);
+    font-family: cursive;
+}
+
+.portada {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(200, 202, 54);
+    font-size: 50px;
+    font-family: cursive;
+    text-align: center;
+    padding: 20px;
+}
+
+.contenedor_tablas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+/* Media Query para pantallas más pequeñas */
+@media (max-width: 768px) {
+    .portada {
+        font-size: 40px;
+    }
+
+    .contenedor_tablas {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tabla {
+        margin-top: 30px;
+    }
+}
+
+/* Media Query para pantallas aún más pequeñas */
+@media (max-width: 576px) {
+    .portada {
+        font-size: 30px;
+    }
+}

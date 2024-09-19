@@ -1,0 +1,115 @@
+<div class="body">
+    <div class="portada">
+        <img [src]="escudo_dorado" alt="" width="30%" height="auto">
+        <div>PARTIDOS Y TABLA DE POSICIONES</div>
+        <img [src]="escudo_dorado" alt="" width="30%" height="auto">
+    </div>
+    <div class="contenedor_tablas">
+        <table class="tabla" border="2">
+            <caption style="font-size: large; color: aliceblue;">Tabla de Posiciones</caption>
+            <thead>
+                <tr class="encabezado">
+                    <th>Posicion </th>
+                    <th> Equipo </th>
+                    <th>PJ-</th>
+                    <th>PG-</th>
+                    <th>PE-</th>
+                    <th>PP-</th>
+                    <th>Puntos </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="cuerpo" *ngFor="let dato of datosTabla">
+                    <th>1</th>
+                    <th>{{dato.Equipo}}</th>
+                    <th>{{dato.PJ}}</th>
+                    <th>{{dato.Ganados}}</th>
+                    <th>{{dato.Empatados}}</th>
+                    <th>{{dato.Perdidos}}</th>
+                    <th>{{dato.puntos}}</th>
+                </tr>
+            </tbody>
+        </table>
+        <table class="tabla">
+            <tbody class="cuerpo">
+                <tr>
+                    <th>15 de abril / </th>
+                    <th>Wilstermann</th>
+                    <th>vs</th>
+                    <th>Independiente / </th>
+                    <th>8:00 pm</th>
+                </tr>
+                <tr>
+                    <th>23 de abril / </th>
+                    <th>Bolivar</th>
+                    <th>vs</th>
+                    <th>Wilstermann / </th>
+                    <th>5:30 pm</th>
+                </tr>
+                <tr>
+                    <th>30 de abril / </th>
+                    <th>Wilstermann</th>
+                    <th>vs</th>
+                    <th>Palmaflor / </th>
+                    <th>7:30 pm</th>
+                </tr>
+                <tr>
+                    <th>6 de mayo / </th>
+                    <th>Real Tomayapo</th>
+                    <th>vs</th>
+                    <th>Wilstermann / </th>
+                    <th>5:30 pm</th>
+                </tr>
+                <tr>
+                    <th>13 de mayo / </th>
+                    <th>Wilstermann</th>
+                    <th>vs</th>
+                    <th>Real SC / </th>
+                    <th>7:00 pm</th>
+                </tr>
+                <tr>
+                    <th>21 de mayo / </th>
+                    <th>Guabira</th>
+                    <th>vs</th>
+                    <th>Wilstermann / </th>
+                    <th>5:30 pm</th>
+                </tr>
+                <tr>
+                    <th>27 de mayo / </th>
+                    <th>wilstermann</th>
+                    <th>vs</th>
+                    <th>Royal Pari / </th>
+                    <th>5:30 pm</th>
+                </tr>
+                <tr>
+                    <th>4 de junio / </th>
+                    <th>the Strongest</th>
+                    <th>vs</th>
+                    <th>Wilstermann / </th>
+                    <th>5:30 pm</th>
+                </tr>
+                <tr>
+                    <th>25 de junio / </th>
+                    <th>wilstermann</th>
+                    <th>vs</th>
+                    <th>Oriente Petrolero / </th>
+                    <th>7:30 pm</th>
+                </tr>
+                <tr>
+                    <th>8 de julio / </th>
+                    <th>wilstermann</th>
+                    <th>vs</th>
+                    <th>Blooming / </th>
+                    <th>8:00 pm</th>
+                </tr>
+                <tr>
+                    <th>16 de julio / </th>
+                    <th>Aurora</th>
+                    <th>vs</th>
+                    <th>Wilstermann / </th>
+                    <th>5:30 pm</th>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
